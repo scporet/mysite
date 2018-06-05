@@ -1,1 +1,11 @@
-theme: jekyll-theme-tactile
+# basic options
+title: Blog Aware
+author: ScpoRet
+email: your-email@domain.com
+description: Trying to build a Jekyll Blog - what a pain!
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+theme: minima
