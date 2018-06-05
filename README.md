@@ -1,6 +1,4 @@
-# Hey Guys!
-
-## This is a Markdown Test
+### Markdown Test
 
 These are the problems with learning a new tool:
 - Can't go back to html editing
