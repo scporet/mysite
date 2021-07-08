@@ -1,9 +1,0 @@
-# basic options
-title: Blog Aware
-author: Gerry_R
-email: your-email@domain.com
-description: Trying to get this blog up and running; using mostly trial and error.  They say it's easy to start a Github blog, so I hope this works!
-
-# Build settings
-markdown: kramdown
-theme: minima
