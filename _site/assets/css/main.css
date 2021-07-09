@@ -3,11 +3,10 @@
 html {
     margin: 0;
     overflow: visible;
-    background-image: linear-gradient(to bottom, #899266, #646e63); 
+    background-image: linear-gradient(to bottom, #e291d4, #55084f); 
     font-size: calc(12px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     width: 100%;
     min-height: 100vh;
-    
   }
   
   body {
@@ -16,7 +15,98 @@ html {
     width: 80vw;
     height: 100%;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0;
     border: 1px solid black;
     min-height: 100vh;
   }
+
+  .container {
+    display: grid;
+    grid-template-areas:
+      "header header header header header header"
+      "content content content content content content"
+      "footer footer footer footer footer footer";
+    grid-template-columns: auto 6fr auto;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 0;
+    min-height: 100vh;
+    height: 100%;
+  }
+
+  header {
+    height: auto;
+    grid-area: header;
+    background-image:
+      linear-gradient(to right, rgb(224, 229, 153), #b95808);
+  }
+  
+  .title {
+    font-family: $ff-s;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: 0;
+    width: 75%;
+  } 
+  
+  .title-area {
+    text-align: auto;
+    color: black;
+    padding: 15px;
+    margin: 0;
+    border-bottom: 2px solid #000000;
+  }
+
+  footer {
+    grid-area: footer;
+    text-align: center;
+    margin: 0px;
+    padding: 7px;
+    height: auto;
+    background: #a6b8be;
+    border-top: 2px solid #000;
+    color: rgb(67, 80, 57);
+    font-family: "Fenix", serif;
+    font-size: 1.0em;
+    font-weight: bold;
+    line-height: 1.4rem;
+   }
+
+
+   
+@media (max-width: 758px) {
+
+    .nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  div.content{
+    margin-left: 0;
+  }
+
+  .container {
+    grid-template-areas: 
+    "header"
+    "content"
+    "footer";
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 
+    auto
+    1fr 
+    auto;
+    }
+
+body {
+  width: 100%;
+}
+nav {
+  margin: 0;
+  }
+
+footer {
+  margin: 0;
+}
+}

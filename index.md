@@ -5,4 +5,4 @@ layout: default
 
 # {{ page.title }}
 
-## Here is some normal content
+## Thanks for visiting! 
