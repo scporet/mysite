@@ -20,6 +20,15 @@ html {
     min-height: 100vh;
   }
 
+h1 {
+    line-height: 1.2em;
+}
+  
+h2 {
+    padding-left: 25px;
+    text-decoration: italic;
+}
+
   .container {
     display: grid;
     grid-template-areas:
@@ -42,7 +51,7 @@ html {
   
   .title {
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0;
     width: 75%;
   } 
@@ -57,15 +66,15 @@ html {
 
   footer {
     grid-area: footer;
+    font-family: "Fenix", sans-serif;
     text-align: center;
     margin: 0px;
     padding: 7px;
     height: auto;
     background: #a6b8be;
     border-top: 2px solid #000;
-    color: rgb(67, 80, 57);
-    font-family: "Fenix", serif;
-    font-size: 1.0em;
+    color: rgb(62, 57, 80);
+    font-size: .8em;
     font-weight: bold;
     line-height: 1.4rem;
    }
