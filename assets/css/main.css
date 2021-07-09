@@ -41,7 +41,6 @@ html {
   }
   
   .title {
-    font-family: $ff-s;
     text-transform: uppercase;
     font-size: 3rem;
     margin: 0;
