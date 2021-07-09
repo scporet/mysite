@@ -32,10 +32,10 @@ h2 {
   .container {
     display: grid;
     grid-template-areas:
-      "header header header header header header"
-      "content content content content content content"
-      "footer footer footer footer footer footer";
-    grid-template-columns: auto 6fr auto;
+      "header"
+      "content"
+      "footer";
+    grid-template-columns: 1fr (repeat, 6fr);
     grid-template-rows: auto 1fr auto;
     grid-gap: 0;
     min-height: 100vh;
@@ -49,6 +49,11 @@ h2 {
       linear-gradient(to right, rgb(224, 229, 153), #b95808);
   }
   
+  img {
+      width: 90%;
+      height: auto;
+  }
+
   .title {
     text-transform: uppercase;
     font-size: 2rem;
