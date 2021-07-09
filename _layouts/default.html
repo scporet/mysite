@@ -8,7 +8,7 @@
 <div class="container">
     <header class="title-area">
         <p class="title">{{ page.title }}</p>
-        <img src="/assets/images/counsel.png">
+        <img src={{ "/assets/images/counsel.png" | relative_url }}>
     </header>
     
     {{ content }}
