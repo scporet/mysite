@@ -1,6 +1,8 @@
 ---
 title: Emilia's Counseling Blog
-layout: default
+layout: home
 ---
 
 ## Thanks for visiting! 
+
+
