@@ -41,6 +41,14 @@ h2 {
     height: 100%;
   }
 
+  .cards {
+    grid-auto-flow: row;
+    margin: 5rem auto;
+    display: grid;
+    grid-gap: 10px;
+    width: min(90%, 75rem);
+  }
+
   header {
     height: auto;
     grid-area: header;
@@ -83,7 +91,11 @@ h2 {
     line-height: 1.4rem;
    }
 
-
+@media (min-width: 45em) {
+  
+  .cards {
+    grid-auto-flow: column;
+}
    
 @media (max-width: 758px) {
 

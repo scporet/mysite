@@ -1,1 +1,21 @@
-name: Emilia's Counseling Blog
+---
+title: Emergent Counseling Services, LLC
+name: Emilia's Blog
+---
+
+sass:
+  style: compact
+
+baseurl:  "\"
+
+
+
+email: anycounselor@gmail.com
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - .AppleDouble/
