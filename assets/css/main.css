@@ -96,7 +96,8 @@ h2 {
   .cards {
     grid-auto-flow: column;
 }
-   
+
+
 @media (max-width: 758px) {
 
     .nav {
@@ -133,4 +134,3 @@ nav {
 footer {
   margin: 0;
 }
-}}
